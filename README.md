@@ -28,6 +28,8 @@ You have to provide a URL for the license, which can be a link to the license te
 
 To validate your changes, run the validator as described in the Usage section below.
 
+idk test
+
 Install dependencies:
 
 ```bash
