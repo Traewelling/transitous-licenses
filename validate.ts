@@ -40,7 +40,7 @@ async function validateLicenses(): Promise<void> {
         // Read licenses.json
         const licensesPath = path.join(__dirname, 'licenses.json');
         const licensesContent = fs.readFileSync(licensesPath, 'utf-8');
-        const licenses = JSON.parse(licensesContent);
+        const licenses = JSON.parse(licensesContent) as LicensesData;
 
         // Initialize Ajv with strict mode and draft 2020-12 support
         const ajv = new Ajv({
@@ -84,22 +84,40 @@ async function validateLicenses(): Promise<void> {
     }
 }
 
+type License = {
+    identifier: string;
+    name: string | null;
+    url: string;
+    attribution_test: string | null;
+};
+
+type Source = {
+    file: string;
+    spdx: string | null;
+    custom_license: string | null;
+};
+
+type LicensesData = {
+    proprietary_licenses: License[];
+    sources: Source[];
+}
+
 /**
  * Performs additional custom validations beyond JSON Schema
  */
-function performCustomValidations(data: any): void {
+function performCustomValidations(data: LicensesData): void {
     console.log('\n🔍 Performing additional validations...\n');
 
     const errors: string[] = [];
 
     // Get all license identifiers from proprietary_licenses
     const licenseIdentifiers = new Set<string>(
-        data.proprietary_licenses.map((license: any) => license.identifier)
+        data.proprietary_licenses.map((license: License) => license.identifier)
     );
 
     // Check for duplicate license identifiers
     const seenIdentifiers = new Set<string>();
-    data.proprietary_licenses.forEach((license: any, index: number) => {
+    data.proprietary_licenses.forEach((license: License, index: number) => {
         if (spdxIds.has(license.identifier)) {
             errors.push(
                 `License identifier "${license.identifier}" at index ${index} is a known SPDX license. Consider using the "spdx" field in sources instead of defining it as a custom license.`
@@ -114,7 +132,7 @@ function performCustomValidations(data: any): void {
     });
 
     // Validate that all custom_license references exist in proprietary_licenses
-    data.sources.forEach((source: any, index: number) => {
+    data.sources.forEach((source: Source, index: number) => {
         if (source.custom_license && !licenseIdentifiers.has(source.custom_license)) {
             errors.push(
                 `Source "${source.file}" (index ${index}) references unknown custom_license: "${source.custom_license}"`
@@ -143,7 +161,7 @@ function performCustomValidations(data: any): void {
 
     // Check for duplicate source files
     const seenFiles = new Set<string>();
-    data.sources.forEach((source: any, index: number) => {
+    data.sources.forEach((source: Source, index: number) => {
         if (seenFiles.has(source.file)) {
             errors.push(
                 `Duplicate source file found: "${source.file}" at index ${index}`
