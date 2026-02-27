@@ -28,6 +28,7 @@ npm test
 ## What it validates
 
 ### JSON Schema Validation
+
 - Validates the structure of `licenses.json` against `schema.json`
 - Ensures all required fields are present
 - Validates data types (strings, nulls, arrays, objects)
@@ -35,13 +36,13 @@ npm test
 - Ensures no additional properties beyond those defined in the schema
 
 ### Custom Validations
+
 In addition to JSON Schema validation, the validator performs:
 
 1. **License Identifier Uniqueness**: Checks that all license identifiers in `proprietary_licenses` are unique
 2. **License Reference Integrity**: Verifies that all `custom_license` references in sources point to existing licenses in `proprietary_licenses`
 3. **Source File Uniqueness**: Ensures no duplicate source files are defined
 4. **License Assignment**: Warns if a source has neither `spdx` nor `custom_license` defined
-
 
 ## Development
 
@@ -52,4 +53,3 @@ npm run build
 ```
 
 This will compile TypeScript files to the `dist/` directory.
-

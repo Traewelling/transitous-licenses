@@ -7,7 +7,10 @@
     "validate": "tsx validate.ts",
     "build": "tsc",
     "test": "npm run validate",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "lint:check": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "keywords": [
     "transitous",
@@ -24,6 +27,7 @@
     "@types/node": "^20.11.0",
     "eslint": "^10.0.2",
     "globals": "^17.3.0",
+    "prettier": "3.8.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
     "typescript-eslint": "^8.56.1"

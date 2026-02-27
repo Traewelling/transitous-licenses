@@ -37,7 +37,10 @@
         "name": {
           "type": ["string", "null"],
           "description": "Full human-readable name of the license.",
-          "examples": ["Open Data Commons Open Database License (ODbL)", "Open Government Licence – Canada"]
+          "examples": [
+            "Open Data Commons Open Database License (ODbL)",
+            "Open Government Licence – Canada"
+          ]
         },
         "attribution_text": {
           "type": ["string", "null"],
