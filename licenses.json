@@ -4,7 +4,7 @@
       "identifier": "MTA Open Data Law (A1442-B/S4625-A)",
       "name": null,
       "attribution_text": null,
-      "url": null
+      "url": "https://www.nysenate.gov/legislation/bills/2021/S4625"
     },
     {
       "identifier": "TMB Terms and Conditions",
@@ -46,7 +46,7 @@
       "identifier": "opentransportdataSwiss",
       "name": null,
       "attribution_text": "Source: opentransportdata.swiss",
-      "url": null
+      "url": "https://opentransportdata.swiss/de/terms-of-use/"
     },
     {
       "identifier": "Open Data License",
@@ -70,19 +70,13 @@
       "identifier": "Ustawa o dostępie do informacji publicznej",
       "name": null,
       "attribution_text": null,
-      "url": null
+      "url": "https://bip.plk-sa.pl/ponowne-wykorzystywanie"
     },
     {
       "identifier": "WMATA Transit Data Terms of Use",
       "name": "Washington Metropolitan Area Transit Authority (WMATA)",
       "attribution_text": null,
       "url": "https://developer.wmata.com/license"
-    },
-    {
-      "identifier": "CC-BY-3.0",
-      "name": null,
-      "attribution_text": null,
-      "url": null
     },
     {
       "identifier": "Open Government Licence – Canada",
@@ -94,7 +88,7 @@
       "identifier": "Mobilitätsverbünde Österreich OG",
       "name": null,
       "attribution_text": "Data source: Mobilitätsverbünde Österreich OG - data.moblitaetsverbuende.at",
-      "url": null
+      "url": "https://mobilitaetsverbuende.atlassian.net/wiki/spaces/DBP/pages/85524481/Nutzungsbedingungen"
     },
     {
       "identifier": "ODPCH",
@@ -106,19 +100,7 @@
       "identifier": "OVAPI",
       "name": null,
       "attribution_text": "Data source: OVapi.nl",
-      "url": null
-    },
-    {
-      "identifier": "CC0-1.0",
-      "name": null,
-      "attribution_text": null,
-      "url": null
-    },
-    {
-      "identifier": "CC-BY-4.0",
-      "name": null,
-      "attribution_text": null,
-      "url": null
+      "url": "http://gtfs.ovapi.nl/README"
     },
     {
       "identifier": "Busmaps.com Data License v1.0",
@@ -127,46 +109,28 @@
       "url": "https://busmaps.com/en/license"
     },
     {
-      "identifier": "No License Needed",
-      "name": null,
-      "attribution_text": null,
-      "url": null
-    },
-    {
       "identifier": "DeLijn",
       "name": null,
       "attribution_text": "Source: De Lijn",
-      "url": null
-    },
-    {
-      "identifier": "CC-BY-SA-4.0",
-      "name": null,
-      "attribution_text": null,
-      "url": null
-    },
-    {
-      "identifier": "CC-BY-NC-4.0",
-      "name": null,
-      "attribution_text": null,
-      "url": null
+      "url": "https://data.delijn.be/content/Licentie%20voor%20gratis%20hergebruik%20_opendata%20portaal_2024.pdf"
     },
     {
       "identifier": "SNCB",
       "name": null,
       "attribution_text": null,
-      "url": null
+      "url": "https://www.belgiantrain.be/en/3rd-party-services/mobility-service-providers/public-data/"
     },
     {
       "identifier": "Developer License Agreement & Terms of Use of Chicago Transit Authority",
       "name": null,
       "attribution_text": null,
-      "url": null
+      "url": "https://www.transitchicago.com/developers/terms/"
     },
     {
       "identifier": "Developer Data Southwest Ohio Regional Transit Authority (SORTA/Metro)",
       "name": null,
       "attribution_text": null,
-      "url": null
+      "url": "https://www.go-metro.com/about/developer-data/"
     },
     {
       "identifier": "Otvorena dozvola (data.gov.hr)",
@@ -175,10 +139,10 @@
       "url": "https://data.gov.hr/otvorena-dozvola"
     },
     {
-      "identifier": "OGL-ROU-1.0",
+      "identifier": "no-license-dft",
       "name": null,
-      "attribution_text": "Contains public information under the Open Government License v1.0.",
-      "url": "https://data.gov.ro/base/images/logoinst/OGL-ROU-1.0.pdf"
+        "attribution_text": null,
+      "url": "https://www.bus-data.dft.gov.uk/"
     }
   ],
   "sources": [
@@ -234,13 +198,13 @@
       "file": "bus-dft",
       "spdx": null,
       "url": null,
-      "custom_license": "No License Needed"
+      "custom_license": "no-license-dft"
     },
     {
       "file": "gb_bus-dft.gtfs.zip",
       "spdx": null,
       "url": "https://www.bus-data.dft.gov.uk/",
-      "custom_license": "No License Needed"
+      "custom_license": "no-license-dft"
     },
     {
       "file": "great-britain",
