@@ -9,12 +9,12 @@ Licenses allowed in `proprietary_licenses` must have a unique identifier and fol
 Each license can include details such as name, URL, and additional notes.
 
 A license should adhere to the following legal requirements:
- - Must allow users to use, modify, and distribute the licensed work
- - Must not require users to pay royalties or fees for using the licensed work
- - Must not be specific to a product or technology
- - May restrict the use of the licensed work in certain ways (e.g., non-commercial use only), but these restrictions must be clearly stated and not violate the above requirements
- - May restrict sub-licensing, but this must be clearly stated and not violate the above requirements
 
+- Must allow users to use, modify, and distribute the licensed work
+- Must not require users to pay royalties or fees for using the licensed work
+- Must not be specific to a product or technology
+- May restrict the use of the licensed work in certain ways (e.g., non-commercial use only), but these restrictions must be clearly stated and not violate the above requirements
+- May restrict sub-licensing, but this must be clearly stated and not violate the above requirements
 
 **To add a new license or update existing ones, follow these steps:**
 
@@ -25,7 +25,6 @@ The filename for the sources must be the same as in https://traewelling.de/debug
 If the license is not a known open-source license, you can define a custom license in the `proprietary_licenses` section and reference it in the `sources` section using the `custom_license` field.
 
 You have to provide a URL for the license, which can be a link to the license text or a webpage describing the license. This is important for users to understand the terms of the license.
-
 
 To validate your changes, run the validator as described in the Usage section below.
 

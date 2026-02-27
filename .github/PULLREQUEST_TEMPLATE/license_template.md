@@ -4,16 +4,21 @@
 - [ ] I have checked my contribution for syntax errors
 
 ## Country / Land
+
 [Insert here]
 
 ## License / Lizenz
+
 [Insert here]
 
 ## Source / Quelle
+
 [Insert here]
 
 ## Notes / Anmerkungen
+
 [Insert here]
 
 ## Träwelling Issue Link (optional)
+
 [Insert here]
