@@ -1,7 +1,11 @@
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
+import identifiers from 'spdx-license-ids/index.json';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+
+const spdxIds = new Set<string>(identifiers);
+spdxIds.add('OGL-ROU-1.0'); // Add OGL-ROU-1.0 to the set of valid SPDX identifiers
 
 const allowedSpdxLicenses = new Set<string>([
     'MIT',
@@ -96,6 +100,11 @@ function performCustomValidations(data: any): void {
     // Check for duplicate license identifiers
     const seenIdentifiers = new Set<string>();
     data.proprietary_licenses.forEach((license: any, index: number) => {
+        if (spdxIds.has(license.identifier)) {
+            errors.push(
+                `License identifier "${license.identifier}" at index ${index} is a known SPDX license. Consider using the "spdx" field in sources instead of defining it as a custom license.`
+            );
+        }
         if (seenIdentifiers.has(license.identifier)) {
             errors.push(
                 `Duplicate license identifier found: "${license.identifier}" at index ${index}`
@@ -109,6 +118,12 @@ function performCustomValidations(data: any): void {
         if (source.custom_license && !licenseIdentifiers.has(source.custom_license)) {
             errors.push(
                 `Source "${source.file}" (index ${index}) references unknown custom_license: "${source.custom_license}"`
+            );
+        }
+
+        if (source.spdx && !spdxIds.has(source.spdx)) {
+            errors.push(
+                `Source "${source.file}" (index ${index}) has invalid spdx license: "${source.spdx}". It is not a recognized SPDX identifier.`
             );
         }
 
