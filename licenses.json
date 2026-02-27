@@ -805,6 +805,12 @@
       "spdx": "ODbL-1.0",
       "url": "http://www.sncf.com",
       "custom_license": null
+    },
+    {
+      "file": "nz_Metlink.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://www.metlink.org.nz/developers/",
+      "custom_license": null
     }
   ]
 }
