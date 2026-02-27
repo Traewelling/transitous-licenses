@@ -1,0 +1,846 @@
+{
+  "proprietary_licenses": [
+    {
+      "identifier": "MTA Open Data Law (A1442-B/S4625-A)",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "TMB Terms and Conditions",
+      "name": "TMB Terms and Conditions",
+      "attribution_text": null,
+      "url": "https://developer.tmb.cat/docs/terms-conditions"
+    },
+    {
+      "identifier": "AMB Licence",
+      "name": "AMB Licence",
+      "attribution_text": null,
+      "url": "https://www.amb.cat/s/web/area-metropolitana/dades-obertes/condicions-d-us.html"
+    },
+    {
+      "identifier": "Licence Mobilités",
+      "name": "Licence Mobilités",
+      "attribution_text": null,
+      "url": "https://wiki.lafabriquedesmobilites.fr/wiki/Licence_Mobilit%C3%A9s"
+    },
+    {
+      "identifier": "Septa License Agreement",
+      "name": "Septa License Agreement",
+      "attribution_text": null,
+      "url": "https://www3.septa.org/developer/"
+    },
+    {
+      "identifier": "Fairfax Connector",
+      "name": "Fairfax Connector",
+      "attribution_text": "Visit fairfaxconnector.com for more information, http://www.fairfaxconnector.com",
+      "url": "https://www.fairfaxcounty.gov/connector/bustracker/data"
+    },
+    {
+      "identifier": "Licencia Datos",
+      "name": "Licencia Datos",
+      "attribution_text": null,
+      "url": "https://nap.transportes.gob.es/licencia-datos"
+    },
+    {
+      "identifier": "opentransportdataSwiss",
+      "name": null,
+      "attribution_text": "Source: opentransportdata.swiss",
+      "url": null
+    },
+    {
+      "identifier": "Open Data License",
+      "name": "RTA Dubai Open Data (Roads and Transport Authority, Government of Dubai)",
+      "attribution_text": null,
+      "url": "http://www.rta.ae/"
+    },
+    {
+      "identifier": "BC Transit ToU",
+      "name": "BC Transit",
+      "attribution_text": null,
+      "url": "https://www.bctransit.com/open-data/terms-of-use/"
+    },
+    {
+      "identifier": "Massachusetts Department of Transportation Developers License Agreement",
+      "name": "MassDOT",
+      "attribution_text": null,
+      "url": "https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf"
+    },
+    {
+      "identifier": "Ustawa o dostępie do informacji publicznej",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "WMATA Transit Data Terms of Use",
+      "name": "Washington Metropolitan Area Transit Authority (WMATA)",
+      "attribution_text": null,
+      "url": "https://developer.wmata.com/license"
+    },
+    {
+      "identifier": "CC-BY-3.0",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "Open Government Licence – Canada",
+      "name": "Open Government Licence – Canada",
+      "attribution_text": "Contains information licensed under the Open Government Licence – Canada.",
+      "url": "https://open.canada.ca/en/open-government-licence-canada"
+    },
+    {
+      "identifier": "Mobilitätsverbünde Österreich OG",
+      "name": null,
+      "attribution_text": "Data source: Mobilitätsverbünde Österreich OG - data.moblitaetsverbuende.at",
+      "url": null
+    },
+    {
+      "identifier": "ODPCH",
+      "name": null,
+      "attribution_text": "Data source: ODPCH – opentransportdata.swiss",
+      "url": "https://opentransportdata.swiss/de/terms-of-use/"
+    },
+    {
+      "identifier": "OVAPI",
+      "name": null,
+      "attribution_text": "Data source: OVapi.nl",
+      "url": null
+    },
+    {
+      "identifier": "CC0-1.0",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "CC-BY-4.0",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "Busmaps.com Data License v1.0",
+      "name": null,
+      "attribution_text": "This product includes derivative public transportation data provided by Busmaps.com. For more information, visit busmaps.com",
+      "url": "https://busmaps.com/en/license"
+    },
+    {
+      "identifier": "No License Needed",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "DeLijn",
+      "name": null,
+      "attribution_text": "Source: De Lijn",
+      "url": null
+    },
+    {
+      "identifier": "CC-BY-SA-4.0",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "CC-BY-NC-4.0",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "SNCB",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "Developer License Agreement & Terms of Use of Chicago Transit Authority",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "Developer Data Southwest Ohio Regional Transit Authority (SORTA/Metro)",
+      "name": null,
+      "attribution_text": null,
+      "url": null
+    },
+    {
+      "identifier": "Otvorena dozvola (data.gov.hr)",
+      "name": null,
+      "attribution_text": null,
+      "url": "https://data.gov.hr/otvorena-dozvola"
+    },
+    {
+      "identifier": "OGL-ROU-1.0",
+      "name": null,
+      "attribution_text": "Contains public information under the Open Government License v1.0.",
+      "url": "https://data.gov.ro/base/images/logoinst/OGL-ROU-1.0.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "file": "ro_railway.gtfs.zip",
+      "spdx": "OGL-ROU-1.0",
+      "url": "https://gitlab.spline.de/spline/transitous/gov-ro-gtfs/",
+      "custom_license": null
+    },
+    {
+      "file": "hr_zet.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.zet.hr",
+      "custom_license": "Otvorena dozvola (data.gov.hr)"
+    },
+    {
+      "file": "us-oh_Southwest-Ohio-Regional-Transit-Authority.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.go-metro.com/about/developer-data/",
+      "custom_license": "Developer Data Southwest Ohio Regional Transit Authority (SORTA/Metro)"
+    },
+    {
+      "file": "us-il_CTA.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.transitchicago.com/downloads/sch_data/google_transit.zip",
+      "custom_license": "Developer License Agreement & Terms of Use of Chicago Transit Authority"
+    },
+    {
+      "file": "be_sncb.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.belgiantrain.be/",
+      "custom_license": "SNCB"
+    },
+    {
+      "file": "sk_Bratislava.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://dpb.sk/",
+      "custom_license": null
+    },
+    {
+      "file": "si_nap.gtfs.zip",
+      "spdx": "CC-BY-SA-4.0",
+      "url": "https://b2b.nap.si/data/b2b.gtfs",
+      "custom_license": null
+    },
+    {
+      "file": "be_delijn.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.delijn.be",
+      "custom_license": "DeLijn"
+    },
+    {
+      "file": "bus-dft",
+      "spdx": null,
+      "url": null,
+      "custom_license": "No License Needed"
+    },
+    {
+      "file": "gb_bus-dft.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.bus-data.dft.gov.uk/",
+      "custom_license": "No License Needed"
+    },
+    {
+      "file": "great-britain",
+      "spdx": null,
+      "url": "https://s3.transitpdf.com/files/uran/improved-gtfs-great-britain.zip",
+      "custom_license": "Busmaps.com Data License v1.0"
+    },
+    {
+      "file": "northern-ireland",
+      "spdx": null,
+      "url": "https://s3.transitpdf.com/files/uran/improved-gtfs-northern-ireland.zip",
+      "custom_license": "Busmaps.com Data License v1.0"
+    },
+    {
+      "file": "gb_great-britain.gtfs.zip",
+      "spdx": null,
+      "url": "https://aubin.app/",
+      "custom_license": "Busmaps.com Data License v1.0"
+    },
+    {
+      "file": "gb_northern-ireland.gtfs.zip",
+      "spdx": null,
+      "url": "https://busmaps.com",
+      "custom_license": "Busmaps.com Data License v1.0"
+    },
+    {
+      "file": "cz_PID.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://pid.cz",
+      "custom_license": null
+    },
+    {
+      "file": "dk_rejseplanen.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://www.rejseplanen.info/labs/GTFS.zip",
+      "custom_license": null
+    },
+    {
+      "file": "ro_tursib.gtfs.zip",
+      "spdx": "CC-BY-SA-4.0",
+      "url": "https://tursib.ro",
+      "custom_license": null
+    },
+    {
+      "file": "be_stib.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://www.stib-mivb.be/index.htm?l=fr",
+      "custom_license": null
+    },
+    {
+      "file": "ovapi",
+      "spdx": null,
+      "url": "https://gtfs.ovapi.nl/nl/tripUpdates.pb",
+      "custom_license": "OVAPI"
+    },
+    {
+      "file": "nl_ovapi.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.ovapi.nl",
+      "custom_license": "OVAPI"
+    },
+    {
+      "file": "opentransportdataswiss25",
+      "spdx": null,
+      "url": "https://api.opentransportdata.swiss/la/gtfs-rt",
+      "custom_license": "ODPCH"
+    },
+    {
+      "file": "ch_opentransportdataswiss25.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.sbb.ch/",
+      "custom_license": "ODPCH"
+    },
+    {
+      "file": "at_PTA-Carinthia-Flex-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/78/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Eastern-Region-Flex-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/80/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Salzburg-Flex-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/73/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Styria-Flex-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/79/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Upper-Austria-Flex-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/77/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Vorarlberg-Flex-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/75/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_Linz-AG-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Eastern-Region-Flex-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/80/2026/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Vorarlberg-Flex-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/75/2026/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Carinthia-Flex-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/78/2026/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Salzburg-Flex-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/73/2026/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Styria-Flex-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/79/2026/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Tyrol-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Upper-Austria-Flex-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/77/2026/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_Railway-Current-Reference-Data-2026.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "Linz-AG-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/69/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "Railway-Current-Reference-Data-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/66/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "PTA-Vorarlberg-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/58/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "PTA-Tyrol-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/57/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "PTA-Upper-Austria-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/56/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "PTA-Carinthia-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/55/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "PTA-Salzburg-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/54/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "PTA-Styria-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/53/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "PTA-Eastern-Region-2025",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/52/2025/file",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_Linz-AG-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Carinthia-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Eastern-Region-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Salzburg-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Styria-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Tyrol-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Upper-Austria-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_PTA-Vorarlberg-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "at_Railway-Current-Reference-Data-2025.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.mobilitaetsverbuende.at/",
+      "custom_license": "Mobilitätsverbünde Österreich OG"
+    },
+    {
+      "file": "ca_Viarail.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.viarail.ca/",
+      "custom_license": "Open Government Licence – Canada"
+    },
+    {
+      "file": "it_Veneto-Venezia-Bus.gtfs.zip",
+      "spdx": "CC-BY-3.0",
+      "url": "http://www.actv.it/",
+      "custom_license": null
+    },
+    {
+      "file": "it_Veneto-Venezia-Ferries.gtfs.zip",
+      "spdx": "CC-BY-3.0",
+      "url": "http://www.actv.it/",
+      "custom_license": null
+    },
+    {
+      "file": "us-dc_WMATA-bus.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.wmata.com",
+      "custom_license": "WMATA Transit Data Terms of Use"
+    },
+    {
+      "file": "us-dc_WMATA-rail.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.wmata.com",
+      "custom_license": "WMATA Transit Data Terms of Use"
+    },
+    {
+      "file": "us-va_arlington.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.arlingtontransit.com",
+      "custom_license": "WMATA Transit Data Terms of Use"
+    },
+    {
+      "file": "pl_Koleje-Mazowieckie.gtfs.zip",
+      "spdx": null,
+      "url": "https://mkuran.pl/gtfs/",
+      "custom_license": "Ustawa o dostępie do informacji publicznej"
+    },
+    {
+      "file": "pl_Poznań.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.ztm.poznan.pl",
+      "custom_license": "Ustawa o dostępie do informacji publicznej"
+    },
+    {
+      "file": "pl_ZTP-Kraków.gtfs.zip",
+      "spdx": null,
+      "url": "http://ztp.krakow.pl/",
+      "custom_license": "Ustawa o dostępie do informacji publicznej"
+    },
+    {
+      "file": "pl_Koleje-Wielkopolskie.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://gtfs.kasznia.net",
+      "custom_license": "Ustawa o dostępie do informacji publicznej"
+    },
+    {
+      "file": "pl_ZTP-Kraków-A.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.mpk.krakow.pl/",
+      "custom_license": "Ustawa o dostępie do informacji publicznej"
+    },
+    {
+      "file": "pl_ZTP-Kraków-M.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.rg.com.pl",
+      "custom_license": "Ustawa o dostępie do informacji publicznej"
+    },
+    {
+      "file": "pl_ZTP-Kraków-T.gtfs.zip",
+      "spdx": null,
+      "url": "http://ztp.krakow.pl/",
+      "custom_license": "Ustawa o dostępie do informacji publicznej"
+    },
+    {
+      "file": "us-ma_MBTA.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.mbta.com",
+      "custom_license": "Massachusetts Department of Transportation Developers License Agreement"
+    },
+    {
+      "file": "ca-bc_Campbell-River-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Comox-Valley-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Cowichan-Valley-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Creston-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Dawson-Creek-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Fort-St-John-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Kamloops-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Nanaimo-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Powell-River-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Prince-George-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Squamish-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Sunshine-Coast-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Victoria-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_West-Kootenay-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Whistler-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ae_Dubai-RTA.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.rta.ae",
+      "custom_license": "Open Data License"
+    },
+    {
+      "file": "ch_opentransportdataswiss-flex.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.opentransportdata.swiss/en/dataset/gtfsflex/permalink",
+      "custom_license": "opentransportdataSwiss"
+    },
+    {
+      "file": "ch_opentransportdataswiss26.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.sbb.ch/",
+      "custom_license": "opentransportdataSwiss"
+    },
+    {
+      "file": "es_Autobús-interurbano-de-Cataluña.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1364",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Cercanías-Renfe.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1130",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_RENFE---Media,-Larga-Distancia-y-AVE.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1098",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Tranvía-Metropolitano-Barcelona.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1329",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Tranvía-Metropolitano-Besós-Barcelona.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1330",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "us-va_fairfax-connector.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.fairfaxcounty.gov/connector/routes/",
+      "custom_license": "Fairfax Connector"
+    },
+    {
+      "file": "es_Autobuses-TCC-Barcelona.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1580",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-metropolitano-Barcelona.gtfs.zip",
+      "spdx": null,
+      "url": "http://www.ambmobilitat.cat",
+      "custom_license": "AMB Licence"
+    },
+    {
+      "file": "es_Transporte-metropolitano-de-Barcelona-(Bus-y-Metro).gtfs.zip",
+      "spdx": null,
+      "url": "https://www.tmb.cat",
+      "custom_license": "TMB Terms and Conditions"
+    },
+    {
+      "file": "us-pa_SEPTA-Bus.gtfs.zip",
+      "spdx": null,
+      "url": "https://septa.org/",
+      "custom_license": "Septa License Agreement"
+    },
+    {
+      "file": "us-pa_SEPTA-Rail.gtfs.zip",
+      "spdx": null,
+      "url": "https://septa.org/",
+      "custom_license": "Septa License Agreement"
+    },
+    {
+      "file": "fr_reseau-urbain-et-interurbain-dile-de-france-mobilites.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.data.gouv.fr/api/1/datasets/r/413988ed-d340-467b-8be2-7b999fcd207a",
+      "custom_license": "Licence Mobilités"
+    },
+    {
+      "file": "us-ny_LIRR.gtfs.zip",
+      "spdx": null,
+      "url": "http://web.mta.info/lirr",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "us-ny_MTA-BusBronx.gtfs.zip",
+      "spdx": null,
+      "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_bx.zip",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "us-ny_MTA-BusBrooklyn.gtfs.zip",
+      "spdx": null,
+      "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_b.zip",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "us-ny_MTA-BusCompany.gtfs.zip",
+      "spdx": null,
+      "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_busco.zip",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "us-ny_MTA-BusManhattan.gtfs.zip",
+      "spdx": null,
+      "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_m.zip",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "us-ny_MTA-BusQueens.gtfs.zip",
+      "spdx": null,
+      "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_q.zip",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "us-ny_MTA-BusStatenIsland.gtfs.zip",
+      "spdx": null,
+      "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_si.zip",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "us-ny_MTA-NYCSubway.gtfs.zip",
+      "spdx": null,
+      "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "us-ny_MetroNorth.gtfs.zip",
+      "spdx": null,
+      "url": "https://rrgtfsfeeds.s3.amazonaws.com/gtfsmnr.zip",
+      "custom_license": "MTA Open Data Law (A1442-B/S4625-A)"
+    },
+    {
+      "file": "fr_horaires-sncf.gtfs.zip",
+      "spdx": "ODbL-1.0",
+      "url": "http://www.sncf.com",
+      "custom_license": null
+    },
+    {
+      "file": "fr_horaires-theoriques-de-loffre-du-reseau-ferre-regional-de-transport.gtfs.zip",
+      "spdx": "ODbL-1.0",
+      "url": "http://www.sncf.com",
+      "custom_license": null
+    }
+  ]
+}

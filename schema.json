@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://transitous.org/schemas/licenses.json",
+  "title": "Transitous License Registry",
+  "description": "Schema for transit data source licenses and their time-based mappings to data sources.",
+  "type": "object",
+  "required": ["proprietary_licenses", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "proprietary_licenses": {
+      "type": "array",
+      "description": "Registry of all known proprietary licenses under which transit data sources are published.",
+      "items": {
+        "$ref": "#/$defs/License"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "description": "Transit data sources with time-based license mappings.",
+      "items": {
+        "$ref": "#/$defs/Source"
+      }
+    }
+  },
+  "$defs": {
+    "License": {
+      "type": "object",
+      "description": "A license definition describing terms under which transit data may be used.",
+      "required": ["identifier", "name", "attribution_text", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "identifier": {
+          "type": "string",
+          "description": "Short license identifier. Uses SPDX identifiers where applicable (e.g. ODbL-1.0, CC-BY-4.0, CC0-1.0), otherwise a custom name.",
+          "examples": ["ODbL-1.0", "CC-BY-4.0", "CC0-1.0", "Licence Mobilités"]
+        },
+        "name": {
+          "type": ["string", "null"],
+          "description": "Full human-readable name of the license.",
+          "examples": ["Open Data Commons Open Database License (ODbL)", "Open Government Licence – Canada"]
+        },
+        "attribution_text": {
+          "type": ["string", "null"],
+          "description": "Required attribution text to include when using data under this license.",
+          "examples": [
+            "Contains information licensed under the Open Government Licence – Canada.",
+            "Source: opentransportdata.swiss"
+          ]
+        },
+        "url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "URL to the full license text or terms of use."
+        }
+      }
+    },
+    "Source": {
+      "type": "object",
+      "description": "A transit data source with its provider metadata and license assignment.",
+      "required": ["file", "spdx", "custom_license", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "file": {
+          "type": ["string"],
+          "description": "Filename of the data source archive, as published by transitous. This is used to link the license information to the corresponding data source file.",
+          "examples": ["at_Linz-AG-2025.gtfs.zip", "dk_rejseplanen.gtfs.zip"]
+        },
+        "spdx": {
+          "type": ["string", "null"],
+          "description": "When the source is available under a well-known SPDX license, this field captures that identifier. This may differ from the referenced license record if the source is dual-licensed or if the registry includes a custom license that supplements an SPDX license.",
+          "examples": ["CC-BY-4.0", "ODbL-1.0", "CC-BY-SA-4.0"]
+        },
+        "url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "URL to the data source or its metadata page on the provider's website."
+        },
+        "custom_license": {
+          "type": ["string", "null"],
+          "description": "When the source is published under a custom license that does not have a spdx identifier, this field captures the name or identifier of that license. It has te be defined in the 'proprietary_licenses' section of the registry.",
+          "examples": ["Licence Mobilités", "Licence Ouverte – version 1.0"]
+        }
+      }
+    }
+  }
+}
