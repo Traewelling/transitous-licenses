@@ -61,8 +61,8 @@
       "url": "https://www.bctransit.com/open-data/terms-of-use/"
     },
     {
-      "identifier": "Massachusetts Department of Transportation Developers License Agreement",
-      "name": "MassDOT",
+      "identifier": "MassDOT",
+      "name": "Massachusetts Department of Transportation Developers License Agreement",
       "attribution_text": null,
       "url": "https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf"
     },
@@ -234,6 +234,12 @@
       "file": "cz_PID.gtfs.zip",
       "spdx": "CC-BY-4.0",
       "url": "https://pid.cz",
+      "custom_license": null
+    },
+    {
+      "file": "rejseplanen",
+      "spdx": "CC-BY-4.0",
+      "url": "https://www.rejseplanen.info/labs/GTFS.zip",
       "custom_license": null
     },
     {
@@ -558,7 +564,7 @@
       "file": "us-ma_MBTA.gtfs.zip",
       "spdx": null,
       "url": "http://www.mbta.com",
-      "custom_license": "Massachusetts Department of Transportation Developers License Agreement"
+      "custom_license": "MassDOT"
     },
     {
       "file": "ca-bc_Campbell-River-Transit.gtfs.zip",
@@ -811,6 +817,90 @@
       "spdx": "CC-BY-4.0",
       "url": "https://www.metlink.org.nz/developers/",
       "custom_license": null
+    },
+    {
+      "file": "pt_Albufeira-Giro.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Algarve-Vamus.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Apanha-me.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Autna.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Barreiro.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://www.tcbarreiro.pt",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Comboios-de-Portugal(CP).gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://publico.cp.pt/gtfs/gtfs.zip",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Faro.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Fergatus.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://www.fertagus.pt",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Lagos-Aonda.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Olhao.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Portimao.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Tavira.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://gtfs.trenmo.com",
+      "custom_license": null
+    },
+    {
+      "file": "pt_Transportes-Urbanos-de-Braga.gtfs.zip",
+      "spdx": "CC0-1.0",
+      "url": "https://www.tub.pt/developer/gtfs/feed/tub.zip",
+      "custom_license": null
+    },
+    {
+      "file": "es_VAC-245.-Huesca-Barcelona.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1172",
+      "custom_license": "Licencia Datos"
     }
   ]
 }
