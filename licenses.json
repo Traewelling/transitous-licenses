@@ -39,7 +39,7 @@
     {
       "identifier": "Licencia Datos",
       "name": "Licencia Datos",
-      "attribution_text": null,
+      "attribution_text": "Powered by MITRAMS - https://www.transportes.gob.es/",
       "url": "https://nap.transportes.gob.es/licencia-datos"
     },
     {
@@ -913,6 +913,324 @@
       "spdx": null,
       "url": "https://www.rtd-denver.com/files/gtfs/google_transit.zip",
       "custom_license": "RTD GTFS Realtime License Agreement"
-    }
+    },
+    {
+      "file": "es_Ancebus.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/2017",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autocares-Rías-Baixas-(Rías-Baixas-Coaches).gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1843",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Alvarez-Travelers-Coaches.gtfs.zip ",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/2070",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Cots-Alsina.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/2009",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Direxis-TGO-(Transportes-Generales-de-Olesa).gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1984",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_La-Veloz-SA.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1914",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobuses-Sarbus.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1584",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Direxis-Masats.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1983",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Viagón-Coaches.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/2073",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_ALSA-autobuses.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1131",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobus-Madrid-Aranda-de-Duero-Burgo-de-Osma.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1561",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobuses-Empresa-Casas.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1578",
+      "custom_license": "Licencia Datos"
+    }, 
+    {
+      "file": "es_Autobuses-Samar.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1165",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobuses-Sarbus-–-La-Vallesana.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1581",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobuses-Urbanos-de-Ciudad-Real.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1599",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobuses-Xunta-de-Galicia.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1584",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobuses-urbanos-de-Alicante.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1607",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobusos-de-Lleida.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1579",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-Comarca-de-Pamplona.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1177",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-Principado-de-Asturias.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1178",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-Principado-de-Asturias.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1178",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-en-Cantabria.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1560",
+      "custom_license": "Licencia Datos"
+    }, 
+    {
+      "file": "es_Autobús-urbano-de-Castellón-de-la-Plana.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1572",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-Córdoba.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1573",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-Granada.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1564",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-Las-Palmas-de-Gran-Canaria.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1295",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-Mataró.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1173",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-Ourense.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1586",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-Palma-de-Mallorca.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1495",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-Tarrasa.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1175",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-Valladolid.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1563",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autobús-urbano-de-la-Coruña.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1574",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Autocares-Baraza.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1169",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_EMT-Tarragona.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1694",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Ferry-Baleària.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1527",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Ferry-Fred.Olsen.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1528",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Metro-de-Granada.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1568",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Metro-de-Valencia.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1168",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Ouigo.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1766",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Pujol-autobuses.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1577",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Reus-Transport.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1788",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Salamanca-de-Transportes-S.A.-.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1598",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Sarfa-autobuses.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1576",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Transporte-metropolitano-Andalucía.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1562",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Transporte-urbano-de-Zaragoza.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1176",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Transportes-Urbanos-de-Santander.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1602",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Transportes-de-Murcia.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1597",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Tranvía-de-Murcia.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1569",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Tranvía-de-Zaragoza.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1687",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Trenes-y-tranvías-de-Alicante-y-Costa-Blanca.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1167",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_Unauto.gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1575",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_VAC-231.-Madrid,-Piedrabuena-(Ciudad-Real)-y-Agudo-(Ciudad-Real).gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1711",
+      "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "es_VAC-232.-Madrid,-Málaga-y-Algeciras-(Cádiz).gtfs.zip",
+      "spdx": null,
+      "url": "https://nap.transportes.gob.es/api/Fichero/download/1132",
+      "custom_license": "Licencia Datos"
+    },
   ]
 }
