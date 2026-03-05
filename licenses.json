@@ -143,6 +143,12 @@
       "name": null,
       "attribution_text": null,
       "url": "https://www.bus-data.dft.gov.uk/"
+    },
+    {
+      "identifier": "RTD GTFS Realtime License Agreement",
+      "name": null,
+      "attribution_text": null,
+      "url": "https://www.rtd-denver.com/open-records/open-spatial-information/gtfs-realtime-license-agreement"
     }
   ],
   "sources": [
@@ -901,6 +907,12 @@
       "spdx": null,
       "url": "https://nap.transportes.gob.es/api/Fichero/download/1172",
       "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "us-co_RTD.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.rtd-denver.com/files/gtfs/google_transit.zip",
+      "custom_license": "RTD GTFS Realtime License Agreement"
     }
   ]
 }
