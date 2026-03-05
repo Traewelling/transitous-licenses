@@ -149,6 +149,12 @@
       "name": null,
       "attribution_text": null,
       "url": "https://www.rtd-denver.com/open-records/open-spatial-information/gtfs-realtime-license-agreement"
+    },
+    {
+      "identifier": "no-license-amtrak",
+      "name": null,
+      "attribution_text": null,
+      "url": "https://github.com/user-attachments/files/24483097/Response.-.26-FOI-00215.pdf"
     }
   ],
   "sources": [
@@ -913,6 +919,12 @@
       "spdx": null,
       "url": "https://www.rtd-denver.com/files/gtfs/google_transit.zip",
       "custom_license": "RTD GTFS Realtime License Agreement"
+    },
+    {
+      "file": "us_Amtrak.gtfs.zip",
+      "spdx": null,
+      "url": "https://github.com/user-attachments/files/24483097/Response.-.26-FOI-00215.pdf",
+      "custom_license": "no-license-amtrak"
     }
   ]
 }
