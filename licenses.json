@@ -913,6 +913,12 @@
       "spdx": null,
       "url": "https://www.rtd-denver.com/files/gtfs/google_transit.zip",
       "custom_license": "RTD GTFS Realtime License Agreement"
+    },
+    {
+      "file": "es_Ferrocarriles-de-la-Generalitat-de-Cataluña.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://www.fgc.cat/",
+      "custom_license": null
     }
   ]
 }
