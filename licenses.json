@@ -985,7 +985,7 @@
       "spdx": null,
       "url": "https://nap.transportes.gob.es/api/Fichero/download/1578",
       "custom_license": "Licencia Datos"
-    }, 
+    },
     {
       "file": "es_Autobuses-Samar.gtfs.zip",
       "spdx": null,
@@ -1039,7 +1039,7 @@
       "spdx": null,
       "url": "https://nap.transportes.gob.es/api/Fichero/download/1560",
       "custom_license": "Licencia Datos"
-    }, 
+    },
     {
       "file": "es_Autobús-urbano-de-Castellón-de-la-Plana.gtfs.zip",
       "spdx": null,
