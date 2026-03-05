@@ -1035,12 +1035,6 @@
       "custom_license": "Licencia Datos"
     },
     {
-      "file": "es_Autobús-Principado-de-Asturias.gtfs.zip",
-      "spdx": null,
-      "url": "https://nap.transportes.gob.es/api/Fichero/download/1178",
-      "custom_license": "Licencia Datos"
-    },
-    {
       "file": "es_Autobús-en-Cantabria.gtfs.zip",
       "spdx": null,
       "url": "https://nap.transportes.gob.es/api/Fichero/download/1560",
@@ -1231,6 +1225,6 @@
       "spdx": null,
       "url": "https://nap.transportes.gob.es/api/Fichero/download/1132",
       "custom_license": "Licencia Datos"
-    },
+    }
   ]
 }
