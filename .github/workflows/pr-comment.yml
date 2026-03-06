@@ -1,0 +1,33 @@
+name: PR Welcome Comment
+
+on:
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Post review checklist comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh pr comment "$PR_NUMBER" \
+            --repo "$REPO" \
+            --body "Thank you for contributing a license to Träwelling! We'll review your pull request soon.
+
+          Here's our internal review checklist:
+
+          **License requirements**
+          - [ ] The license allows use, redistribution, and modification of the data
+          - [ ] The license does not require royalties or usage fees
+          - [ ] The license is not specific to a product or technology
+          - [ ] Any restrictions are clearly stated
+
+          **Technical checks**
+          - [ ] The source filename matches exactly what appears on [traewelling.de/debug/motis-sources](https://traewelling.de/debug/motis-sources)
+          - [ ] The data source URL is reachable and correct (or null and not relevant)"
