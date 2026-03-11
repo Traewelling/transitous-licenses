@@ -167,6 +167,18 @@
       "name": "TriMet Terms of Use",
       "attribution_text": null,
       "url": "https://developer.trimet.org/terms_of_use.shtml"
+    },
+    {
+      "identifier": "King County Transit Data Terms of Use",
+      "name": "King County",
+      "attribution_text": "Transit scheduling, geographic, and real-time data provided by permission of King County",
+      "url": "https://kingcounty.gov/en/dept/metro/rider-tools/mobile-and-web-apps#toc-transit-data-terms-of-use"
+    },
+    {
+      "identifier": "Sound Transit Transit Data Terms of Use",
+      "name": "Sound Transit",
+      "attribution_text": "",
+      "url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use"
     }
   ],
   "sources": [
@@ -1195,6 +1207,54 @@
       "spdx": "CC-BY-4.0",
       "url": "http://opendatagoogletransit.comune.genova.it/downloads/google_transit.zip",
       "custom_license": null
+    },
+    {
+      "file": "us-wa_Metro-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.soundtransit.org/GTFS-KCM/google_transit.zip",
+      "custom_license": "King County Transit Data Terms of Use"
+    },
+    {
+      "file": "us-wa_Sound-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.soundtransit.org/GTFS-rail/40_gtfs.zip",
+      "custom_license": "Sound Transit Transit Data Terms of Use"
+    },
+    {
+      "file": "us-wa_Pierce-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.soundtransit.org/GTFS-PT/gtfs.zip",
+      "custom_license": "Sound Transit Transit Data Terms of Use"
+    },
+    {
+      "file": "us-wa_Community-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.soundtransit.org/GTFS-CT/current.zip",
+      "custom_license": "Sound Transit Transit Data Terms of Use"
+    },
+    {
+      "file": "us-wa_Intercity-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://gtfs.sound.obaweb.org/prod/19_gtfs.zip",
+      "custom_license": "Sound Transit Transit Data Terms of Use"
+    },
+    {
+      "file": "us-wa_Everett-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://gtfs.sound.obaweb.org/prod/97_gtfs.zip",
+      "custom_license": "Sound Transit Transit Data Terms of Use"
+    },
+    {
+      "file": "us-wa_Washington-State-Ferries.gtfs.zip",
+      "spdx": null,
+      "url": "https://business.wsdot.wa.gov/Transit/csv_files/wsf/google_transit.zip",
+      "custom_license": "Sound Transit Transit Data Terms of Use"
+    },
+    {
+      "file": "us-wa_Kitsap-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://gtfs.sound.obaweb.org/prod/20_gtfs.zip",
+      "custom_license": "Sound Transit Transit Data Terms of Use"
     }
   ]
 }
