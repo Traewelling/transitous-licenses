@@ -167,6 +167,12 @@
       "name": "TriMet Terms of Use",
       "attribution_text": null,
       "url": "https://developer.trimet.org/terms_of_use.shtml"
+    },
+    {
+      "identifier": "National Park Service Terms of Use",
+      "name": "National Park Service Terms of Use",
+      "attribution_text": null,
+      "url": "https://www.nps.gov/aboutus/disclaimer.htm"
     }
   ],
   "sources": [
@@ -1189,6 +1195,24 @@
       "spdx": null,
       "url": "https://developer.trimet.org/schedule/gtfs.zip",
       "custom_license": "trimet-tou"
+    },
+    {
+      "file": "us-me_acadia.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.nps.gov/external-resources/gtfs/acad/island-explorer.zip",
+      "custom_license": "National Park Service Terms of Use"
+    },
+    {
+      "file": "us-nm_bandalier-national-monument.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.nps.gov/external-resources/gtfs/band/bandalier-national-monument.zip",
+      "custom_license": "National Park Service Terms of Use"
+    },
+    {
+      "file": "us-ny_NationalParkService.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.nps.gov/external-resources/gtfs/stli/statue-of-liberty-ferries.zip",
+      "custom_license": "National Park Service Terms of Use"
     }
   ]
 }
