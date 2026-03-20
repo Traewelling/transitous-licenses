@@ -1189,6 +1189,12 @@
       "spdx": null,
       "url": "https://developer.trimet.org/schedule/gtfs.zip",
       "custom_license": "trimet-tou"
+    },
+    {
+      "file": "it_Liguria-Genova.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "http://opendatagoogletransit.comune.genova.it/downloads/google_transit.zip",
+      "custom_license": null
     }
   ]
 }
