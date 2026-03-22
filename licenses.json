@@ -1189,6 +1189,12 @@
       "spdx": null,
       "url": "https://developer.trimet.org/schedule/gtfs.zip",
       "custom_license": "trimet-tou"
+    },
+    {
+      "file": "ca-qc_Exo-reseaudetransportmetropolitain.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://exo.quebec/xdata/trains/google_transit.zip",
+      "custom_license": null
     }
   ]
 }
