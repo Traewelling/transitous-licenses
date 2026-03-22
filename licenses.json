@@ -175,30 +175,6 @@
       "url": "https://transitdata.ridewta.com"
     }
     {
-      "identifier": "kcm-tdtu",
-      "name": "Metro Transit Data Terms of Use",
-      "attribution_text": null,
-      "url": "https://kingcounty.gov/en/dept/metro/rider-tools/mobile-and-web-apps#toc-transit-data-terms-of-use"
-    }
-    {
-      "identifier": "st-otd",
-      "name": "Sound Transit Data Terms of Use",
-      "attribution_text": null,
-      "url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use"
-    }
-    {
-      "identifier": "ct-open-tou",
-      "name": "Community Transit Open Data Terms of Use",
-      "attribution_text": null,
-      "url": "https://www.communitytransit.org/open-data"
-    }
-    {
-      "identifier": "kt-dua",
-      "name": "Kitsap Transit Developer User Agreement",
-      "attribution_text": null,
-      "url": "https://www.kitsaptransit.com/terms-and-conditions#developer"
-    }
-    {
       "identifier": "jta-tou",
       "name": "Jefferson Transit Authority Data Terms of Use",
       "attribution_text": null,
@@ -1237,54 +1213,6 @@
       "spdx": null,
       "url": "https://github.com/whatcomtrans/publicwtadata/raw/master/GTFS/wta_gtfs_latest.zip",
       "custom_license": "wta-data"
-    }
-    {
-      "file": "us-wa_Metro-Transit.gtfs.zip",
-      "spdx": null,
-      "url": "https://gtfs.sound.obaweb.org/prod/1_gtfs.zip",
-      "custom_license": "kcm-tdtu"
-    }
-    {
-      "file": "us-wa_Sound-Transit.gtfs.zip",
-      "spdx": null,
-      "url": "https://gtfs.sound.obaweb.org/prod/40_gtfs.zip",
-      "custom_license": "st-otd"
-    }
-    {
-      "file": "us-wa_Pierce-Transit.gtfs.zip",
-      "spdx": null,
-      "url": "https://gtfs.sound.obaweb.org/prod/3_gtfs.zip",
-      "custom_license": "st-otd"
-    }
-    {
-      "file": "us-wa_Intercity-Transit.gtfs.zip",
-      "spdx": null,
-      "url": "https://gtfs.sound.obaweb.org/prod/19_gtfs.zip",
-      "custom_license": "st-otd"
-    }
-    {
-      "file": "us-wa_Community-Transit.gtfs.zip",
-      "spdx": null,
-      "url": "https://www.communitytransit.org/docs/default-source/open-data/gtfs/current.zip?sfvrsn=1968d0e2_118",
-      "custom-license": "ct-open-tou"
-    }
-    {
-      "file": "us-wa_Everett-Transit.gtfs.zip",
-      "spdx": null,
-      "url:" "https://everett.mapstrat.com/current/google_transit.zip",
-      "custom-license": "st-otd"
-    }
-    {
-      "file": "us-wa_Washington-State-Ferries.gtfs.zip",
-      "spdx": null,
-      "url": "https://business.wsdot.wa.gov/Transit/csv_files/wsf/google_transit.zip",
-      "custom-license": "st-otd"
-    }
-    {
-      "file": "us-wa_Kitsap-Transit.gtfs.zip",
-      "spdx": null,
-      "url": "https://pride.kitsaptransit.com/gtfs/google_transit.zip",
-      "custom-license": "kt-dua"
     }
     {
       "file": "us-wa_Jefferson-Transit.gtfs.zip",
