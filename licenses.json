@@ -1225,6 +1225,12 @@
       "spdx": "CC-BY-4.0",
       "url": "https://www.stlevis.ca/sites/default/files/public/assets/gtfs/transit/gtfs_stlevis.zip",
       "custom_license": null
+    },
+    {
+      "file": "ca-qc_STM.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://www.stm.info/sites/default/files/gtfs/gtfs_stm.zip",
+      "custom_license": null
     }
   ]
 }
