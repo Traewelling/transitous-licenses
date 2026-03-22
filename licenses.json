@@ -167,6 +167,12 @@
       "name": "TriMet Terms of Use",
       "attribution_text": null,
       "url": "https://developer.trimet.org/terms_of_use.shtml"
+    },
+    {
+      "identifier": "rtc-tou",
+      "name": "RTC Terms of Use",
+      "attribution_text": "Application, product, or service incorporating public information from Réseau de transport de la Capitale, updated on ___________.",
+      "url": "https://www.rtcquebec.ca/en/open-data"
     }
   ],
   "sources": [
@@ -1195,6 +1201,12 @@
       "spdx": "CC-BY-4.0",
       "url": "https://exo.quebec/xdata/trains/google_transit.zip",
       "custom_license": null
+    },
+    {
+      "file": "ca-qc_RTC.gtfs.zip",
+      "spdx": null,
+      "url": "https://cdn.rtcquebec.ca/Site_Internet/DonneesOuvertes/googletransit.zip",
+      "custom_license": "rtc-tou"
     }
   ]
 }
