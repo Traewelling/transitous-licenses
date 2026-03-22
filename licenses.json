@@ -1219,6 +1219,12 @@
       "spdx": null,
       "url": "https://www.rtl-longueuil.qc.ca/transit/latestfeed/RTL.zip",
       "custom_license": "rtl-longueuil-tou"
+    },
+    {
+      "file": "ca-qc_STLevis.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://www.stlevis.ca/sites/default/files/public/assets/gtfs/transit/gtfs_stlevis.zip",
+      "custom_license": null
     }
   ]
 }
