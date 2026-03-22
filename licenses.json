@@ -173,6 +173,12 @@
       "name": "RTC Terms of Use",
       "attribution_text": "Application, product, or service incorporating public information from Réseau de transport de la Capitale, updated on ___________.",
       "url": "https://www.rtcquebec.ca/en/open-data"
+    },
+    {
+      "identifier": "rtl-longueuil-tou",
+      "name": "RTL Longueuil Terms of Use",
+      "attribution_text": "Source: Réseau de Transport de Longueuil",
+      "url": "https://www.rtl-longueuil.qc.ca/donnees-ouvertes"
     }
   ],
   "sources": [
@@ -1207,6 +1213,12 @@
       "spdx": null,
       "url": "https://cdn.rtcquebec.ca/Site_Internet/DonneesOuvertes/googletransit.zip",
       "custom_license": "rtc-tou"
+    },
+    {
+      "file": "ca-qc_RTL.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.rtl-longueuil.qc.ca/transit/latestfeed/RTL.zip",
+      "custom_license": "rtl-longueuil-tou"
     }
   ]
 }
