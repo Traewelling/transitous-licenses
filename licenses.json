@@ -1327,6 +1327,12 @@
       "spdx": "CC-BY-4.0",
       "url": "https://api.smartdatanet.it/api/Servizioprogrammatodeltrasportopubblicoregionepiemonteautobus_22942/attachment/22941/1/GTFS_BUS_IT_PIE.zip",
       "custom_license": null
-    }
+    },
+    {
+      "file": "kr_korea.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.dropbox.com/scl/fi/l1rnl88xnegpmiuy44kmc/GTFS_DataSet.zip?rlkey=jub5anlfpsdoi9mgfy4qp7x9w&dl=1",
+      "custom_license": "Public Data Portal Policy data.go.kr"
+    },
   ]
 }
