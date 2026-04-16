@@ -1321,6 +1321,12 @@
       "spdx": "CC-BY-4.0",
       "url": "https://opendata.transport.nsw.gov.au/data/dataset/d1f68d4f-b778-44df-9823-cf2fa922e47f/resource/67974f14-01bf-47b7-bfa5-c7f2f8a950ca/download/full_greater_sydney_gtfs_static_0.zip",
       "custom_license": null
+    },
+    {
+      "file": "it_Piemonte-Bus.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://api.smartdatanet.it/api/Servizioprogrammatodeltrasportopubblicoregionepiemonteautobus_22942/attachment/22941/1/GTFS_BUS_IT_PIE.zip",
+      "custom_license": null
     }
   ]
 }
