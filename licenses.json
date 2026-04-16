@@ -163,6 +163,36 @@
       "url": "https://github.com/user-attachments/files/24483097/Response.-.26-FOI-00215.pdf"
     },
     {
+      "identifier": "ca-vta-terms",
+      "name": "Valley Transportion Authority Terms",
+      "attribution_text": null,
+      "url": "https://web.archive.org/web/20190704044857/http://www.vta.org/getting-around/gtfs-info/dev-terms-of-use"
+    },
+    {
+      "identifier": "ca-sfmta-terms",
+      "name": "SFMTA Terms",
+      "attribution_text": "Reproduced with permission granted by the City and County of San Francisco. The information has been provided by means of a nonexclusive, limited, and revocable license granted by the City and County of San Francisco. The City and County of San Francisco does not guarantee the accuracy, adequacy, completeness or usefulness of any information. The City and County of San Francisco provides this information \"as is,\" without warranty of any kind, express or implied, including but not limited to warranties of merchantability or fitness for a particular purpose, and assumes no responsibility for anyone's use of the information.",
+      "url": "https://www.sfmta.com/reports/gtfs-transit-data"
+    },
+    {
+      "identifier": "ca-bart-terms",
+      "name": "BART Terms",
+      "attribution_text": null,
+      "url": "https://www.bart.gov/schedules/developers/developer-license-agreement"
+    },
+    {
+      "identifier": "ca-caltrain-terms",
+      "name": "Caltrain Terms",
+      "attribution_text": null,
+      "url": "https://www.caltrain.com/developer-resources"
+    },
+    {
+      "identifier": "ca-capital-corridor-terms",
+      "name": "Capitol Corridor Terms",
+      "attribution_text": null,
+      "url": "https://www.capitolcorridor.org/developer_resources/#terms"
+    },
+    {
       "identifier": "trimet-tou",
       "name": "TriMet Terms of Use",
       "attribution_text": null,
@@ -1189,6 +1219,36 @@
       "spdx": null,
       "url": "https://nap.transportes.gob.es/api/Fichero/download/1132",
       "custom_license": "Licencia Datos"
+    },
+    {
+      "file": "us-ca_SF-bayarea.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+      "custom_license": "ca-bart-terms"
+    },
+    {
+      "file": "us-ca_SFMTA.gtfs.zip",
+      "spdx": null,
+      "url": "https://muni-gtfs.apps.sfmta.com/data/muni_gtfs-current.zip",
+      "custom_license": "ca-sfmta-terms"
+    },
+    {
+      "file": "us-ca_Caltrain.gtfs.zip",
+      "spdx": null,
+      "url": "https://data.trilliumtransit.com/gtfs/caltrain-ca-us/caltrain-ca-us.zip",
+      "custom_license": "ca-caltrain-terms"
+    },
+    {
+      "file": "us-ca_Capitolcorridor.gtfs",
+      "spdx": null,
+      "url": "https://www.capitolcorridor.org/googletransit/GTFS.zip",
+      "custom_license": "ca-capital-corridor-terms"
+    },
+    {
+      "file": "us-ca_Santa-Cruz-Metro.gtfs.zip",
+      "spdx": "CC-BY-4.0",
+      "url": "https://developer.scmetro.org/gtfs.zip",
+      "custom_license": null
     },
     {
       "file": "us_Amtrak.gtfs.zip",
