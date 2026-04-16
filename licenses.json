@@ -210,6 +210,24 @@
       "attribution_text": "",
       "url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use"
     }
+    {
+      "identifier": "wta-data",
+      "name": "WTA Transit Data",
+      "attribution_text": null,
+      "url": "https://transitdata.ridewta.com"
+    }
+    {
+      "identifier": "jta-tou",
+      "name": "Jefferson Transit Authority Data Terms of Use",
+      "attribution_text": "Transit scheduling, geographic, and real-time data provided by permission of Jefferson Transit Authority",
+      "url": "https://jeffersontransit.com/DocumentCenter/View/146/Jefferson-Transit-Authority-Data-License-Agreement-and-Terms-of-Use-PDF"
+    }
+    {
+      "identifier": "sta-tou",
+      "name": "Spokane Transit Developer Terms of Use",
+      "attribution_text": null,
+      "url": "https://www.spokanetransit.com/developers-terms-of-use/"
+    }
   ],
   "sources": [
     {
@@ -1327,6 +1345,24 @@
       "spdx": "CC-BY-4.0",
       "url": "https://api.smartdatanet.it/api/Servizioprogrammatodeltrasportopubblicoregionepiemonteautobus_22942/attachment/22941/1/GTFS_BUS_IT_PIE.zip",
       "custom_license": null
+    }
+    {
+      "file": "us-wa_Whatcom-Transporation-Authority.gtfs.zip",
+      "spdx": null,
+      "url": "https://github.com/whatcomtrans/publicwtadata/raw/master/GTFS/wta_gtfs_latest.zip",
+      "custom_license": "wta-data"
+    }
+    {
+      "file": "us-wa_Jefferson-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "http://mjcaction.com/MJC_GTFS_Public/jefferson_google_transit.zip",
+      "custom_license": "jta-tou"
+    }
+    {
+      "file": "us-wa_Spokane-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.spokanetransit.com/gtfs",
+      "custom_license": "sta-tou"
     }
   ]
 }
