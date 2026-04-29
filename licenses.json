@@ -1327,6 +1327,24 @@
       "spdx": "CC-BY-4.0",
       "url": "https://api.smartdatanet.it/api/Servizioprogrammatodeltrasportopubblicoregionepiemonteautobus_22942/attachment/22941/1/GTFS_BUS_IT_PIE.zip",
       "custom_license": null
+    },
+    {
+      "file": "hu_bkk-funicular.gtfs.zip",
+      "spdx": "GPL-3.0-only",
+      "url": "https://gy-mate.hu/gtfs/gtfs_hu_funicular.zip",
+      "custom_license": null
+    },
+    {
+      "file": "hu_bkk-chairlift.gtfs.zip",
+      "spdx": "GPL-3.0-only",
+      "url": "https://gy-mate.hu/gtfs/gtfs_hu_chairlift.zip",
+      "custom_license": null
+    },
+    {
+      "file": "hu_urom.gtfs.zip",
+      "spdx": "GPL-3.0-only",
+      "url": "https://gy-mate.hu/gtfs/gtfs_hu_urom.zip",
+      "custom_license": null
     }
   ]
 }
