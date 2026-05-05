@@ -19,6 +19,3 @@
 
 [Insert here]
 
-## Träwelling Issue Link (optional)
-
-[Insert here]

@@ -1,6 +1,18 @@
 # Adding a License to Träwelling
 
-Träwelling displays the license of the transit data used for train connections. If no license is stored for a source, connections using it won't be shown at all. This guide explains how to add a license and open a pull request (PR) using the GitHub web interface. No command line needed.
+Träwelling only shows trips whose transit data is published under a license that permits us to use it. For many
+sources this information is missing, those trips are not shown by default. To make as many connections visible as
+possible, we maintain license information both here and in the Transitous repository. This guide explains how to add
+an entry and open a pull request (PR) using the GitHub web interface. No command line needed.
+
+## Where does the license belong?
+
+Licenses are stored per feed in the [Transitous](https://github.com/public-transport/transitous) project. **This repository (`transitous-licenses`) is a temporary workaround** for proprietary licenses that Transitous cannot yet handle natively.
+
+- **Known open-source license (e.g. CC-BY-4.0, ODbL-1.0):** Add it directly to the feed definition in the [Transitous feeds directory](https://github.com/public-transport/transitous/tree/main/feeds) using the SPDX identifier. Do **not** use this repository for that.
+- **Custom or proprietary license:** Use this repository as described below.
+
+You can find SPDX identifiers at https://spdx.org/licenses/.
 
 ## Step 1: Find the correct filename
 
@@ -10,26 +22,7 @@ Open https://traewelling.de/debug/motis-sources and find the source you want to 
 
 Navigate to [`licenses.json`](../licenses.json) in the repository and click the pencil icon ("Edit this file") in the top right corner.
 
-## Step 3: Add the license
-
-There are two cases:
-
-### Case A: Known open-source license (e.g. CC-BY-4.0, ODbL-1.0)
-
-Add a new entry in the `"sources"` section:
-
-```json
-{
-  "file": "xx_My-Source.gtfs.zip",
-  "spdx": "CC-BY-4.0",
-  "url": "https://link-to-data-source.example",
-  "custom_license": null
-}
-```
-
-You can find the correct SPDX identifier at https://spdx.org/licenses/.
-
-### Case B: Custom or proprietary license
+## Step 3: Add the proprietary license
 
 First, add a new entry in the `"proprietary_licenses"` section:
 
