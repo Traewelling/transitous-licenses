@@ -73,6 +73,12 @@
       "url": "https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf"
     },
     {
+      "identifier": "Massport",
+      "name": "Massachusetts Port Authority Basic Data Feed License Agreement",
+      "attribution_text": null,
+      "url": "https://www.massport.com/sites/default/files/2023-10/massportdatalicenseagreement.pdf"
+    },
+    {
       "identifier": "Ustawa o dostępie do informacji publicznej",
       "name": null,
       "attribution_text": null,
@@ -631,6 +637,12 @@
       "spdx": null,
       "url": "http://www.mbta.com",
       "custom_license": "MassDOT"
+    },
+    {
+      "file": "us-ma_Massport.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.massport.com/",
+      "custom_license": "Massport"
     },
     {
       "file": "ca-bc_Campbell-River-Transit.gtfs.zip",
