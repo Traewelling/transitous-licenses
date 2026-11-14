@@ -18,4 +18,3 @@
 ## Notes / Anmerkungen
 
 [Insert here]
-
