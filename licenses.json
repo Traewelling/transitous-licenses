@@ -211,6 +211,12 @@
       "url": "https://developer.trimet.org/terms_of_use.shtml"
     },
     {
+      "identifier": "c-tran-dla",
+      "name": "C-TRAN Data License Agreement",
+      "attribution_text": "Reproduced with permission granted by C-TRAN. The information has been provided by means of a nonexclusive, limited, and revocable license granted by C-TRAN. C-TRAN does not guarantee the accuracy, adequacy, completeness or usefulness of any information.C-TRAN provides this information \"as is,\" without warranty of any kind, express or implied, including but not limited to warranties of merchantability, non-infringement or fitness for a particular purpose, and assumes no responsibility for anyone's use of the information.",
+      "url": "https://www.c-tran.com/about-c-tran/business/c-tran-gtfs-data"
+    },
+    {
       "identifier": "King County Transit Data Terms of Use",
       "name": "King County",
       "attribution_text": "Transit scheduling, geographic, and real-time data provided by permission of King County",
@@ -1285,6 +1291,12 @@
       "spdx": null,
       "url": "https://developer.trimet.org/schedule/gtfs.zip",
       "custom_license": "trimet-tou"
+    },
+    {
+      "file": "us-or_C-TRAN.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.c-tran.com/images/Google/GoogleTransitUpload.zip",
+      "custom_license": "c-tran-dla"
     },
     {
       "file": "it_Liguria-Genova.gtfs.zip",
