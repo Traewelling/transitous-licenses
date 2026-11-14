@@ -79,6 +79,12 @@
       "url": "https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf"
     },
     {
+      "identifier": "Massport",
+      "name": "Massachusetts Port Authority Basic Data Feed License Agreement",
+      "attribution_text": null,
+      "url": "https://www.massport.com/sites/default/files/2023-10/massportdatalicenseagreement.pdf"
+    },
+    {
       "identifier": "Ustawa o dostępie do informacji publicznej",
       "name": null,
       "attribution_text": null,
@@ -215,6 +221,12 @@
       "name": "Sound Transit",
       "attribution_text": "",
       "url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use"
+    },
+    {
+      "identifier": "ktdb-copyright-policy",
+      "name": "KTDB Copyright Policy",
+      "attribution_text": "Source: Korea Transport Database (KTDB)",
+      "url": "https://www.ktdb.go.kr/www/contents.do?key=154"
     }
   ],
   "sources": [
@@ -637,6 +649,12 @@
       "spdx": null,
       "url": "http://www.mbta.com",
       "custom_license": "MassDOT"
+    },
+    {
+      "file": "us-ma_Massport.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.massport.com/",
+      "custom_license": "Massport"
     },
     {
       "file": "ca-bc_Campbell-River-Transit.gtfs.zip",
@@ -1351,6 +1369,12 @@
       "spdx": "GPL-3.0-only",
       "url": "https://gy-mate.hu/gtfs/gtfs_hu_urom.zip",
       "custom_license": null
+    },
+    {
+      "file": "kr_korea.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.dropbox.com/scl/fi/l1rnl88xnegpmiuy44kmc/GTFS_DataSet.zip?rlkey=jub5anlfpsdoi9mgfy4qp7x9w&dl=1",
+      "custom_license": "ktdb-copyright-policy"
     },
     {
   "file": "es_Consorcio-Regional-de-Transportes-de-Madrid-CRTM-I.gtfs.zip",
