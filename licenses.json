@@ -1,6 +1,12 @@
 {
   "proprietary_licenses": [
     {
+      "identifier": "CRTM Madrid",
+      "name": null,
+      "attribution_text": "Powered by CRTM",
+      "url": "https://www.crtm.es/licencia-de-uso"
+    },
+    {
       "identifier": "MTA Open Data Law (A1442-B/S4625-A)",
       "name": null,
       "attribution_text": null,
@@ -71,6 +77,12 @@
       "name": "Massachusetts Department of Transportation Developers License Agreement",
       "attribution_text": null,
       "url": "https://www.mass.gov/files/documents/2017/10/27/develop_license_agree_0.pdf"
+    },
+    {
+      "identifier": "Massport",
+      "name": "Massachusetts Port Authority Basic Data Feed License Agreement",
+      "attribution_text": null,
+      "url": "https://www.massport.com/sites/default/files/2023-10/massportdatalicenseagreement.pdf"
     },
     {
       "identifier": "Ustawa o dostępie do informacji publicznej",
@@ -199,6 +211,12 @@
       "url": "https://developer.trimet.org/terms_of_use.shtml"
     },
     {
+      "identifier": "c-tran-dla",
+      "name": "C-TRAN Data License Agreement",
+      "attribution_text": "Reproduced with permission granted by C-TRAN. The information has been provided by means of a nonexclusive, limited, and revocable license granted by C-TRAN. C-TRAN does not guarantee the accuracy, adequacy, completeness or usefulness of any information.C-TRAN provides this information \"as is,\" without warranty of any kind, express or implied, including but not limited to warranties of merchantability, non-infringement or fitness for a particular purpose, and assumes no responsibility for anyone's use of the information.",
+      "url": "https://www.c-tran.com/about-c-tran/business/c-tran-gtfs-data"
+    },
+    {
       "identifier": "King County Transit Data Terms of Use",
       "name": "King County",
       "attribution_text": "Transit scheduling, geographic, and real-time data provided by permission of King County",
@@ -209,6 +227,12 @@
       "name": "Sound Transit",
       "attribution_text": "",
       "url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use"
+    },
+    {
+      "identifier": "ktdb-copyright-policy",
+      "name": "KTDB Copyright Policy",
+      "attribution_text": "Source: Korea Transport Database (KTDB)",
+      "url": "https://www.ktdb.go.kr/www/contents.do?key=154"
     }
   ],
   "sources": [
@@ -631,6 +655,12 @@
       "spdx": null,
       "url": "http://www.mbta.com",
       "custom_license": "MassDOT"
+    },
+    {
+      "file": "us-ma_Massport.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.massport.com/",
+      "custom_license": "Massport"
     },
     {
       "file": "ca-bc_Campbell-River-Transit.gtfs.zip",
@@ -1299,6 +1329,12 @@
       "custom_license": "trimet-tou"
     },
     {
+      "file": "us-or_C-TRAN.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.c-tran.com/images/Google/GoogleTransitUpload.zip",
+      "custom_license": "c-tran-dla"
+    },
+    {
       "file": "it_Liguria-Genova.gtfs.zip",
       "spdx": "CC-BY-4.0",
       "url": "http://opendatagoogletransit.comune.genova.it/downloads/google_transit.zip",
@@ -1381,6 +1417,18 @@
       "spdx": "GPL-3.0-only",
       "url": "https://gy-mate.hu/gtfs/gtfs_hu_urom.zip",
       "custom_license": null
+    },
+    {
+      "file": "kr_korea.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.dropbox.com/scl/fi/l1rnl88xnegpmiuy44kmc/GTFS_DataSet.zip?rlkey=jub5anlfpsdoi9mgfy4qp7x9w&dl=1",
+      "custom_license": "ktdb-copyright-policy"
+    },
+    {
+      "file": "es_Consorcio-Regional-de-Transportes-de-Madrid-CRTM-I.gtfs.zip",
+      "spdx": null,
+      "url": "https://crtm.maps.arcgis.com/sharing/rest/content/items/885399f83408473c8d815e40c5e702b7/data",
+      "custom_license": "CRTM Madrid"
     }
   ]
 }
