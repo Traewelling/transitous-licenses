@@ -71,10 +71,10 @@ Eine Lizenz muss folgende Bedingungen erfüllen:
 3. Gib dem Branch einen kurzen Namen (z. B. `add-license-for-DELFI`)
 4. Klicke auf "Propose changes"
 5. Auf der nächsten Seite füllst du die PR-Vorlage aus:
-    - **Country / Land**: z. B. Deutschland
-    - **License / Lizenz**: Name der Lizenz
-    - **Source / Quelle**: Dateiname aus Schritt 1
-    - **Notes / Anmerkungen**: Alles, was noch wichtig ist
+   - **Country / Land**: z. B. Deutschland
+   - **License / Lizenz**: Name der Lizenz
+   - **Source / Quelle**: Dateiname aus Schritt 1
+   - **Notes / Anmerkungen**: Alles, was noch wichtig ist
 6. Klicke auf "Create pull request"
 
 Fertig! Der PR wird dann geprüft und bei Freigabe zusammengeführt.
