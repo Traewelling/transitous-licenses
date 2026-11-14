@@ -693,7 +693,19 @@
       "custom_license": "BC Transit ToU"
     },
     {
+      "file": "ca-bc_East-Kootenay-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
       "file": "ca-bc_Fort-St-John-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Fraser-Valley-Transit.gtfs.zip",
       "spdx": null,
       "url": "https://consat.se",
       "custom_license": "BC Transit ToU"
@@ -711,6 +723,18 @@
       "custom_license": "BC Transit ToU"
     },
     {
+      "file": "ca-bc_North-Okanagan-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Port-Alberni-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
       "file": "ca-bc_Powell-River-Transit.gtfs.zip",
       "spdx": null,
       "url": "https://consat.se",
@@ -718,6 +742,18 @@
     },
     {
       "file": "ca-bc_Prince-George-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_Prince-Rupert-Transit.gtfs.zip",
+      "spdx": null,
+      "url": "https://consat.se",
+      "custom_license": "BC Transit ToU"
+    },
+    {
+      "file": "ca-bc_South-Okanagan-Transit.gtfs.zip",
       "spdx": null,
       "url": "https://consat.se",
       "custom_license": "BC Transit ToU"
