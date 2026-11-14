@@ -1,6 +1,12 @@
 {
   "proprietary_licenses": [
     {
+      "identifier": "CRTM Madrid",
+      "name": null,
+      "attribution_text": "Powered by CRTM",
+      "url": "https://www.crtm.es/licencia-de-uso"
+    },
+    {
       "identifier": "MTA Open Data Law (A1442-B/S4625-A)",
       "name": null,
       "attribution_text": null,
@@ -1369,6 +1375,12 @@
       "spdx": null,
       "url": "https://www.dropbox.com/scl/fi/l1rnl88xnegpmiuy44kmc/GTFS_DataSet.zip?rlkey=jub5anlfpsdoi9mgfy4qp7x9w&dl=1",
       "custom_license": "ktdb-copyright-policy"
+    },
+    {
+      "file": "es_Consorcio-Regional-de-Transportes-de-Madrid-CRTM-I.gtfs.zip",
+      "spdx": null,
+      "url": "https://crtm.maps.arcgis.com/sharing/rest/content/items/885399f83408473c8d815e40c5e702b7/data",
+      "custom_license": "CRTM Madrid"
     }
   ]
 }
