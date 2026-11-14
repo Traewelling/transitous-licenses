@@ -209,6 +209,12 @@
       "name": "Sound Transit",
       "attribution_text": "",
       "url": "https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd/transit-data-terms-use"
+    },
+    {
+      "identifier": "ktdb-copyright-policy",
+      "name": "KTDB Copyright Policy",
+      "attribution_text": "Source: Korea Transport Database (KTDB)",
+      "url": "https://www.ktdb.go.kr/www/contents.do?key=154"
     }
   ],
   "sources": [
@@ -1345,6 +1351,12 @@
       "spdx": "GPL-3.0-only",
       "url": "https://gy-mate.hu/gtfs/gtfs_hu_urom.zip",
       "custom_license": null
+    },
+    {
+      "file": "kr_korea.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.dropbox.com/scl/fi/l1rnl88xnegpmiuy44kmc/GTFS_DataSet.zip?rlkey=jub5anlfpsdoi9mgfy4qp7x9w&dl=1",
+      "custom_license": "ktdb-copyright-policy"
     }
   ]
 }
