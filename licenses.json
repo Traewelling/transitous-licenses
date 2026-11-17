@@ -233,7 +233,19 @@
       "name": "KTDB Copyright Policy",
       "attribution_text": "Source: Korea Transport Database (KTDB)",
       "url": "https://www.ktdb.go.kr/www/contents.do?key=154"
-    }
+    },
+    {
+      "identifier": "sto-terms-of-use",
+      "name": "Conditions d'utilisation – Données ouvertes et clé API de la STO",
+      "attribution_text": "Le présent service intègre les données ouvertes fournies par la Société de transport de l'Outaouais (STO). La STO n'est pas responsable de l'exactitude de l'information générée par cette application.",
+      "url": "https://www.sto.ca/affaires/espace-developpeurs-donnees-ouvertes/conditions-dutilisation-donnees-ouvertes-et-cle-api-de-la-sto/"
+    },
+    {
+      "identifier": "Open Government Licence – City of Ottawa",
+      "name": "Open Government Licence – City of Ottawa.",
+      "attribution_text": "Contains information licensed under the Open Government Licence – City of Ottawa.",
+      "url": "https://ottawa.ca/en/city-hall/open-transparent-and-accountable-government/open-data/open-data-licence-version-20"
+    },
   ],
   "sources": [
     {
@@ -1429,6 +1441,18 @@
       "spdx": null,
       "url": "https://crtm.maps.arcgis.com/sharing/rest/content/items/885399f83408473c8d815e40c5e702b7/data",
       "custom_license": "CRTM Madrid"
+    },
+    {
+      "file": "ca-qc_STO.gtfs.zip",
+      "spdx": null,
+      "url": "https://contenu.sto.ca/GTFS/GTFS.zip",
+      "custom_license": "sto-terms-of-use"
+    },
+    {
+      "file": "ca-on_OCTranspo.gtfs.zip",
+      "spdx": null,
+      "url": "https://www.octranspo.com/",
+      "custom_license": "Open Government Licence – City of Ottawa"
     }
   ]
 }
